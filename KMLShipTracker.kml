@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>LineString Example</name>
+    <description>A simple path drawn with tessellation</description>
+
+<Style id="Pin1"><IconStyle><color>ff000000</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/1.png</href></Icon></IconStyle></Style>
+<Style id="Pin2"><IconStyle><color>ffFFFFFF</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/2.png</href></Icon></IconStyle></Style>
+<Style id="Pin3"><IconStyle><color>ffFF0000</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/3.png</href></Icon></IconStyle></Style>
+<Style id="Pin4"><IconStyle><color>ff00FF00</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/4.png</href></Icon></IconStyle></Style>
+<Style id="Pin5"><IconStyle><color>ff0000FF</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/5.png</href></Icon></IconStyle></Style>
+<Style id="Pin6"><IconStyle><color>ffFFFF00</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/6.png</href></Icon></IconStyle></Style>
+<Style id="Pin7"><IconStyle><color>ff00FFFF</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/7.png</href></Icon></IconStyle></Style>
+<Style id="Pin8"><IconStyle><color>ffFF00FF</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/8.png</href></Icon></IconStyle></Style>
+<Style id="Pin9"><IconStyle><color>ffC0C0C0</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/9.png</href></Icon></IconStyle></Style>
+<Style id="Pin10"><IconStyle><color>ff808080</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/10.png</href></Icon></IconStyle></Style>
+<Style id="Pin11"><IconStyle><color>ff800000</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/11.png</href></Icon></IconStyle></Style>
+<Style id="Pin12"><IconStyle><color>ff808000</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/12.png</href></Icon></IconStyle></Style>
+<Style id="Pin13"><IconStyle><color>ff008000</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/13.png</href></Icon></IconStyle></Style>
+<Style id="Pin14"><IconStyle><color>ff800080</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/14.png</href></Icon></IconStyle></Style>
+<Style id="Pin15"><IconStyle><color>ff008080</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/15.png</href></Icon></IconStyle></Style>
+<Style id="Pin16"><IconStyle><color>ff000080</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/16.png</href></Icon></IconStyle></Style>
+<Style id="Pin17"><IconStyle><color>ffFFA500</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/17.png</href></Icon></IconStyle></Style>
+<Style id="Pin18"><IconStyle><color>ffA52A2A</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/18.png</href></Icon></IconStyle></Style>
+<Style id="Pin19"><IconStyle><color>ffFFC0CB</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/19.png</href></Icon></IconStyle></Style>
+<Style id="Pin20"><IconStyle><color>ffFFD700</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/20.png</href></Icon></IconStyle></Style>
+<Style id="Pin21"><IconStyle><color>ffD3D3D3</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/21.png</href></Icon></IconStyle></Style>
+<Style id="Pin22"><IconStyle><color>ffA9A9A9</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/22.png</href></Icon></IconStyle></Style>
+<Style id="Pin23"><IconStyle><color>ffADD8E6</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/23.png</href></Icon></IconStyle></Style>
+<Style id="Pin24"><IconStyle><color>ff00008B</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/24.png</href></Icon></IconStyle></Style>
+<Style id="Pin25"><IconStyle><color>ff90EE90</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/25.png</href></Icon></IconStyle></Style>
+<Style id="Pin26"><IconStyle><color>ff006400</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/26.png</href></Icon></IconStyle></Style>
+<Style id="Pin27"><IconStyle><color>ffFF7F50</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/27.png</href></Icon></IconStyle></Style>
+<Style id="Pin28"><IconStyle><color>ffFA8072</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/28.png</href></Icon></IconStyle></Style>
+<Style id="Pin29"><IconStyle><color>ffF0E68C</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/29.png</href></Icon></IconStyle></Style>
+<Style id="Pin30"><IconStyle><color>ff4B0082</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/30.png</href></Icon></IconStyle></Style>
+<Style id="Pin31"><IconStyle><color>ffEE82EE</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/31.png</href></Icon></IconStyle></Style>
+<Style id="Pin32"><IconStyle><color>ffF5F5DC</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/32.png</href></Icon></IconStyle></Style>
+
+
+<Style id="LineStyle1"><LineStyle><color>ff000000</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle2"><LineStyle><color>ffFFFFFF</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle3"><LineStyle><color>ffFF0000</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle4"><LineStyle><color>ff00FF00</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle5"><LineStyle><color>ff0000FF</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle6"><LineStyle><color>ffFFFF00</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle7"><LineStyle><color>ff00FFFF</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle8"><LineStyle><color>ffFF00FF</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle9"><LineStyle><color>ffC0C0C0</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle10"><LineStyle><color>ff808080</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle11"><LineStyle><color>ff800000</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle12"><LineStyle><color>ff808000</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle13"><LineStyle><color>ff008000</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle14"><LineStyle><color>ff800080</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle15"><LineStyle><color>ff008080</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle16"><LineStyle><color>ff000080</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle17"><LineStyle><color>ffFFA500</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle18"><LineStyle><color>ffA52A2A</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle19"><LineStyle><color>ffFFC0CB</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle20"><LineStyle><color>ffFFD700</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle21"><LineStyle><color>ffD3D3D3</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle22"><LineStyle><color>ffA9A9A9</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle23"><LineStyle><color>ffADD8E6</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle24"><LineStyle><color>ff00008B</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle25"><LineStyle><color>ff90EE90</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle26"><LineStyle><color>ff006400</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle27"><LineStyle><color>ffFF7F50</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle28"><LineStyle><color>ffFA8072</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle29"><LineStyle><color>ffF0E68C</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle30"><LineStyle><color>ff4B0082</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle31"><LineStyle><color>ffEE82EE</color><width>1</width></LineStyle></Style>
+<Style id="LineStyle32"><LineStyle><color>ffF5F5DC</color><width>1</width></LineStyle></Style>
+
+
+
+<Placemark>
+      <styleUrl>#LineStyle1</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate> <!-- Makes the line follow the Earth's terrain -->
+        <coordinates>
+8.54,53.57,0
+7.47,54.19,0
+4.07,51.96,0
+3.46,51.88,0
+4.25,51.29,0
+4.25,51.29,0
+3.56,51.43,0
+0.67,50.61,0
+-0.5,49.8,0
+0.14,49.46,0
+-0.39,49.6,0
+-10.81,50.35,0
+-21.07,50.58,0
+8.53,53.58,0
+3.47,52.49,0
+4.06,51.96,0
+4.25,51.29,0
+4.27,51.31,0
+0.14,49.46,0
+-2.45,50.07,0
+-12.8,49.74,0
+
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ship 1 MSC DOMNA X</name>
+      <description>
+        <![CDATA[
+          <h1>CDATA Tags are useful!</h1>
+          <p><font color="red">Text is <i>more readable</i> and 
+          <b>easier to write</b> when you can avoid using entity 
+          references.</font></p>
+        ]]>
+      </description>
+<styleUrl>#Pin1</styleUrl>
+      <Point>
+        <coordinates>-12.8,49.74,0</coordinates>
+      </Point>
+    </Placemark>
+
+<Placemark>
+      <styleUrl>#LineStyle2</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate> <!-- Makes the line follow the Earth's terrain -->
+        <coordinates>
+6.88,54.22,0
+-3.88,50.04,0
+-13.12,49.52,0
+-76.34,36.9,0
+-75.1,35.11,0
+-77.09,32.4,0
+-79.95,26.43,0
+-85.37,25.12,0
+-89.34,26.79,0
+5.02,53.94,0
+8.52,53.6,0
+7.54,54.12,0
+-1.88,57.91,0
+-11.21,57.88,0
+
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ship 2 MAERSK IOWA</name>
+      <description>
+        <![CDATA[
+          <h1>CDATA Tags are useful!</h1>
+          <p><font color="red">Text is <i>more readable</i> and 
+          <b>easier to write</b> when you can avoid using entity 
+          references.</font></p>
+        ]]>
+      </description>
+<styleUrl>#Pin2</styleUrl>
+      <Point>
+        <coordinates>-11.21,57.88,0</coordinates>
+      </Point>
+    </Placemark>
+
+<Placemark>
+      <styleUrl>#LineStyle3</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate> <!-- Makes the line follow the Earth's terrain -->
+        <coordinates>
+-76.35,36.88,0
+-76.35,36.88,0
+-76.35,36.88,0
+-76.54,39.25,0
+-72.66,37.01,0
+-71.04,37.21,0
+-49.46,41.72,0
+-35.83,45.76,0
+-33.38,46.31,0
+-25.61,47.63,0
+-10.37,49.14,0
+-2.16,49.96,0
+-1.46,50.91,0
+1.16,50.55,0
+2.62,51.4,0
+4.27,51.3,0
+3.61,51.44,0
+3.53,51.92,0
+4.05,51.95,0
+
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ship 3 CMA CGM FIDELIO</name>
+      <description>
+        <![CDATA[
+          <h1>CDATA Tags are useful!</h1>
+          <p><font color="red">Text is <i>more readable</i> and 
+          <b>easier to write</b> when you can avoid using entity 
+          references.</font></p>
+        ]]>
+      </description>
+<styleUrl>#Pin3</styleUrl>
+      <Point>
+        <coordinates>4.05,51.95,0</coordinates>
+      </Point>
+    </Placemark>
+
+
+<Placemark>
+      <styleUrl>#LineStyle4</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate> <!-- Makes the line follow the Earth's terrain -->
+        <coordinates>
+-19.64,30.58,0
+-52.59,33.78,0
+-65.27,35.82,0
+-76.35,36.88,0
+-75.07,36.01,0
+-76.61,32.5,0
+-79.98,25.47,0
+-84.73,24.81,0
+-92.68,28,0
+-94.55,29.26,0
+-66.06,38.37,0
+-72.63,36.8,0
+-76.35,36.87,0
+-75.36,36.43,0
+-79.41,26.94,0
+-84.01,23.8,0
+
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ship 4</name>
+      <description>
+        <![CDATA[
+          <h1>CDATA Tags are useful!</h1>
+          <p><font color="red">Text is <i>more readable</i> and 
+          <b>easier to write</b> when you can avoid using entity 
+          references.</font></p>
+        ]]>
+      </description>
+<styleUrl>#Pin4</styleUrl>
+      <Point>
+        <coordinates>-84.01,23.8,0</coordinates>
+      </Point>
+    </Placemark>
+
+
+<Placemark>
+      <styleUrl>#LineStyle5</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate> <!-- Makes the line follow the Earth's terrain -->
+        <coordinates>
+-6.84,48.69,0
+-26.45,38.08,0
+-29.52,37.32,0
+-50.68,33.84,0
+-65.21,30.18,0
+-76.72,25.88,0
+-80.81,24.01,0
+-89.55,25.17,0
+-94.41,28.57,0
+-3.95,49.99,0
+-9.29,48.7,0
+-14.43,47.45,0
+-27.41,44.02,0
+-37.66,41.13,0
+-42.71,39.85,0
+-58.65,36.82,0
+-74.19,36.71,0
+-76.18,36.99,0
+-75.65,32.87,0
+-79.57,25.67,0
+-82.59,23.76,0
+-89.68,25.23,0
+-94.43,28.09,0
+-94.88,29.51,0
+
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ship 5</name>
+      <description>
+        <![CDATA[
+          <h1>CDATA Tags are useful!</h1>
+          <p><font color="red">Text is <i>more readable</i> and 
+          <b>easier to write</b> when you can avoid using entity 
+          references.</font></p>
+        ]]>
+      </description>
+<styleUrl>#Pin5</styleUrl>
+      <Point>
+        <coordinates>-94.88,29.51,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
